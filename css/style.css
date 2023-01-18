@@ -1,0 +1,51 @@
+@import url(../css/cores.css);
+@import url(../css/header.css);
+@import url(../css/banner.css);
+@import url(../css/projetos.css);
+@import url(../css/skills.css);
+@import url(../css/contato.css);
+
+html,
+body{
+    padding: 0;
+    margin: 0;
+    background: var(--cor-0) ;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 200px;
+}
+
+h2{
+    color: var(--cor-6);
+    font-size: 3.5rem;
+    font-weight: 700;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    border-bottom: 3px solid var(--cor-1);
+    width: max-content;
+    line-height: 1;
+    margin-top:15px;
+    margin-bottom: 15px;
+}
+
+@media(max-width:650px){
+    h2{
+        font-size: 2.8rem;
+    }
+}
+
+.voltar-topo{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    font-size: 28px;
+    color: var(--cor-7);
+    filter:drop-shadow(0px 0px 5px #fff);
+    cursor: pointer;
+    transition: .2s;
+    display: none;
+}
+
+.voltar-topo:hover{
+    transform: scale(1.1);
+}

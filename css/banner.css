@@ -1,0 +1,128 @@
+.banner-bg{
+    position: relative;
+    top: -65px;
+    background-image: url(../img/banner-background.svg);
+    background-size: cover;
+    height:100%;
+    width: 100vw;
+    
+
+}
+
+.banner-bg-light{
+    position: relative;
+    top: -65px;
+    background-image: linear-gradient(180deg, rgba(89, 35, 177, 0.48) 46.43%, rgba(3, 3, 3, 0.29) 117.3%), url(../img/banner-background.svg);
+    background-size: cover;
+    height:100%;
+    width: 100vw;
+}
+
+.banner-container{
+    width: 100%;
+    padding-top: 200px;
+    padding-bottom: 20px;
+}
+
+.img-card{
+    display: flex;
+    height: 350px;
+    width: 100%;
+    max-width: 750px;
+    position: relative;
+    justify-content:end;
+    align-items: center;
+    background: #0f0f0f50;
+}
+
+.img-card img{
+    width: 100%;
+    max-width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    margin: 0px 100px;
+}
+
+.banner-informacoes{
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.banner-informacoes h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4.6rem;
+    margin: 0;
+    text-align: left;
+    letter-spacing: 0.115em;
+    text-transform: uppercase;
+    color: #fff;
+    border-bottom: 3px solid #fff;
+}
+
+.banner-informacoes h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 51px;
+    letter-spacing: 0.29em;
+    text-transform: uppercase;
+    color: #fff;
+    align-self: flex-start;
+    margin: 10px 0px;
+}
+
+.icons-banner{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    
+}
+.icons-banner a{
+    color:#fff;
+    font-size: 30px;
+    margin-top: 30px;
+    transition: .4s;
+}
+
+.icons-banner a:hover{
+    transform: translateY(-4px);
+}
+
+@media(max-width:750px){
+    .img-card{
+        justify-content: start !important;
+    }
+    .banner-informacoes{
+        align-items: start;
+        padding: 0px 20px;
+    }
+}
+
+@media(max-width:550px){
+
+    .img-card{
+        justify-content: center !important;
+    }
+
+    .img-card img{
+        width: 200px;
+        height: 200px;
+        margin: 0px 50px;
+    }
+    .banner-informacoes h1{
+        font-size: 3rem;
+    }
+    .banner-informacoes h3{
+        font-size: 1.8rem;
+    }
+    .banner-informacoes{
+        padding: 0px 5px;
+    }
+}

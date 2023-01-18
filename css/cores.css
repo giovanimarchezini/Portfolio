@@ -1,0 +1,23 @@
+:root {
+    --cor-0: #0E0E0E;
+    --cor-1: #5923B1;
+    --cor-2: #fff;
+    --cor-3: rgba(15, 15, 15, 0.95);
+    --cor-4: #161616;
+    --cor-5: #5923B1;
+    --cor-6:  #fff;
+    --cor-7:  #fff;
+  }
+
+  .light-mode:root{
+    --cor-0: #fff;
+    --cor-1: #5923B1;
+    --cor-2: #0E0E0E;
+    --cor-3: #5923b1b6;
+    --cor-4: #5923B1;
+    --cor-5:  #fff;
+    --cor-6: #161616;
+    --cor-7:  #5923B1;
+  }
+
+ 

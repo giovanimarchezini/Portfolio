@@ -1,0 +1,39 @@
+[
+    {
+        "Titulo": "Html 5",
+        "Texto":"HTML5 é a quinta versão do HTML (Hypertext Markup Language), que é a linguagem de marcação padrão da Internet para a criação de páginas web. Ele fornece uma estrutura para o conteúdo da página, como texto, imagens e vídeos, e também permite a criação de elementos interativos."
+    },
+    {
+        "Titulo": "Css",
+        "Texto":"CSS (Cascading Style Sheets) é uma linguagem de estilo utilizada para descrever a apresentação de documentos escritos em uma linguagem de marcação, como HTML ou XML. Com o CSS, é possível controlar como os elementos em um documento são exibidos, incluindo cores, fontes, layout, etc."
+    },
+    {
+        "Titulo": "Javascript",
+        "Texto":"JavaScript é uma linguagem de programação de computador interpretada, baseada em scripts, principalmente usada para a criação de conteúdo dinâmico na World Wide Web. É amplamente utilizada tanto no lado do cliente (no navegador) quanto no lado do servidor (com frameworks como Node.js). Ele permite aos desenvolvedores adicionar interatividade e outras funcionalidades avançadas a página."
+    },
+    {
+        "Titulo": "Php",
+        "Texto":"PHP é uma linguagem de programação de código aberto amplamente utilizada para desenvolvimento web. Ela é especialmente projetada para trabalhar com o software de gerenciamento de conteúdo do lado do servidor (CMS) como o WordPress, e com o protocolo HTTP, que é o protocolo utilizado na transmissão de dados na World Wide Web."
+    },
+    {
+        "Titulo": "Mysql",
+        "Texto":"MySQL é um sistema gerenciador de banco de dados relacional (RDBMS, na sigla em inglês) de código aberto. Ele é amplamente utilizado em aplicações web para gerenciar bancos de dados de alta performance e escalabilidade. MySQL suporta uma variedade de plataformas, incluindo Linux, Windows, e macOS, e é compatível com uma ampla gama de linguagens de programação, como PHP."
+    },
+    {
+        "Titulo": "GitHub",
+        "Texto":"GitHub é uma plataforma de desenvolvimento de software baseada na web que oferece armazenamento e gerenciamento de código-fonte e ferramentas de colaboração para desenvolvedores. Ele permite que os desenvolvedores armazenem e controlem versões de seus projetos, bem como colaborem com outras pessoas para desenvolver e melhorar esses projetos."
+    },
+    {
+        "Titulo": "Wordpress",
+        "Texto":"WordPress é um sistema de gerenciamento de conteúdo (CMS) de código aberto para criação e gerenciamento de sites e blogs. Ele foi criado em 2003 e é baseado em PHP e MySQL. Ele é amplamente utilizado por designers de sites, desenvolvedores de web, bloggers e empresas para criar e gerenciar sites de todos os tamanhos e tipos."
+    },
+    {
+        "Titulo": "Oxygen",
+        "Texto":"O Oxygen Builder é um plugin para o WordPress que permite criar layouts personalizados para páginas e postagens usando uma interface visual de arrastar e soltar. Ele oferece uma série de componentes, como caixas de texto, botões, imagens e widgets, que podem ser arrastados para a página e personalizados de acordo com as necessidades."
+    },
+    {
+        "Titulo": "Figma",
+        "Texto":"Figma é uma ferramenta de design colaborativa e de prototipagem que permite que equipes criem, colaborem e iteram em projetos de interface de usuário em tempo real. Ele oferece uma variedade de recursos para design, incluindo ferramentas para criar formas, texto, efeitos e animações."
+    }
+
+]

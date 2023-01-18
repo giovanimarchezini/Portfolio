@@ -1,0 +1,49 @@
+#header{
+    width: 100vw;
+    position: fixed;
+    top:0;
+    z-index: 100;
+    transition: 1s;
+}
+
+.menu-header{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 20px;
+}
+.menu-header a{
+    color:#fff;
+    font-family: 'Roboto';
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.menu-header span{
+    cursor: pointer;
+    margin-left: auto;
+    color: #fff;
+    font-size: 20px;
+    margin-right: 20px;
+    transition: .2s;
+}
+.menu-header span:hover{
+    transform: translateY(-2px);
+}
+
+.menu-header span .ativo{
+    display: none;
+}
+.menu-header a::after{
+    content: '';
+    display: block;
+    background: #fff;
+    width: 0;
+    height: 2px;
+    transition: .4s;
+    margin-left: auto;
+}
+.menu-header a:hover::after{
+    width: 100%;
+    margin-left: 0;
+}
