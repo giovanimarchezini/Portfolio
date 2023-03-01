@@ -1,0 +1,25 @@
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--cor-4);
+    
+}
+
+.footer-icons{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding: 25px;
+}
+
+.footer-icons a{
+    color:#fff;
+    font-size: 30px;
+    transition: .4s;
+}
+
+.footer-icons a:hover{
+    transform: translateY(-4px);
+}

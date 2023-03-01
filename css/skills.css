@@ -93,7 +93,7 @@
      }
      .grid-2-skill img{
         max-width: 100px;
-        border-radius: 14%;
+        border-radius: 0%;
      }
      .grid-1-skill p{
         font-size: 1.2rem;

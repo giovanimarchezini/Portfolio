@@ -1,9 +1,12 @@
 @import url(../css/cores.css);
 @import url(../css/header.css);
 @import url(../css/banner.css);
+@import url(../css/sobre-mim.css);
 @import url(../css/projetos.css);
 @import url(../css/skills.css);
 @import url(../css/contato.css);
+@import url(../css/footer.css);
+@import url(../css/mobile-menu.css);
 
 html,
 body{
@@ -28,6 +31,7 @@ h2{
     margin-bottom: 15px;
 }
 
+
 @media(max-width:650px){
     h2{
         font-size: 2.8rem;
@@ -49,3 +53,77 @@ h2{
 .voltar-topo:hover{
     transform: scale(1.1);
 }
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+      
+  }
+  
+  /* Track */
+ ::-webkit-scrollbar-track {
+    background: var(--cor-0);
+    border-radius: 5px;
+  }
+  
+  /* Handle */
+ ::-webkit-scrollbar-thumb {
+    background: #5923B1;
+    border-radius: 5px;
+   
+  }
+  
+  /* Handle on hover */
+ ::-webkit-scrollbar-thumb:hover {
+    background: #5923B1;
+  }
+  
+
+
+
+  @keyframes show-right {
+    from {
+      opacity: 0;
+      transform: translate3d(-30px, 0, 0);
+    }
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  @keyframes show-left {
+    from {
+      opacity: 0;
+      transform: translate3d(30px, 0, 0);
+    }
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  @keyframes show-up {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 30px, 0);
+    }
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  [data-anime="scroll"]{
+    opacity: 0;
+  }
+  
+  [data-anime="scroll"].ativo.show-right{
+    animation: show-right .7s forwards;
+  }
+  [data-anime="scroll"].ativo.show-left{
+    animation: show-left .6s forwards;
+  }
+  [data-anime="scroll"].ativo.show-up{
+    animation: show-up .7s forwards;
+  }

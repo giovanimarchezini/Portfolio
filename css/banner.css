@@ -2,26 +2,24 @@
     position: relative;
     top: -65px;
     background-image: url(../img/banner-background.svg);
-    background-size: cover;
     height:100%;
     width: 100vw;
-    
 
 }
 
 .banner-bg-light{
     position: relative;
     top: -65px;
-    background-image: linear-gradient(180deg, rgba(89, 35, 177, 0.48) 46.43%, rgba(3, 3, 3, 0.29) 117.3%), url(../img/banner-background.svg);
-    background-size: cover;
+    background-image: linear-gradient(180deg, rgba(89, 35, 177, 0.48) 46.43%, rgba(3, 3, 3, 0.29) 117.3%), url(../img/banner-background.svg);   
     height:100%;
     width: 100vw;
+    
 }
 
 .banner-container{
     width: 100%;
     padding-top: 200px;
-    padding-bottom: 20px;
+    
 }
 
 .img-card{
@@ -33,6 +31,7 @@
     justify-content:end;
     align-items: center;
     background: #0f0f0f50;
+    border-radius:0px 30px 30px 0px;
 }
 
 .img-card img{
@@ -82,7 +81,7 @@
     display: flex;
     flex-direction: row;
     gap: 50px;
-    
+    padding-bottom: 20px;
 }
 .icons-banner a{
     color:#fff;
